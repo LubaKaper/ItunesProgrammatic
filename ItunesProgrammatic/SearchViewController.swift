@@ -84,4 +84,11 @@ extension SearchViewController: UICollectionViewDelegateFlowLayout {
         return CGSize(width: width, height: width)
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("podcast selected")
+        let aPodcast = podcasts[indexPath.row]
+        let detailVC = DetailViewController(aPodcast)
+        navigationController?.pushViewController(detailVC, animated: true)
+    }
+    
 }
