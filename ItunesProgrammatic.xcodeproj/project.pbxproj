@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2F93462581405000B8092C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F93452581405000B8092C /* AppDelegate.swift */; };
+		8D2F93482581405000B8092C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F93472581405000B8092C /* SceneDelegate.swift */; };
+		8D2F934A2581405000B8092C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F93492581405000B8092C /* SearchViewController.swift */; };
+		8D2F934D2581405000B8092C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2F934B2581405000B8092C /* Main.storyboard */; };
+		8D2F934F2581405200B8092C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D2F934E2581405200B8092C /* Assets.xcassets */; };
+		8D2F93522581405200B8092C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2F93502581405200B8092C /* LaunchScreen.storyboard */; };
+		8D2F935E258141E300B8092C /* PodcastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F935D258141E300B8092C /* PodcastModel.swift */; };
+		8D2F93612581420E00B8092C /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F93602581420E00B8092C /* APIClient.swift */; };
+		8D2F93652581477700B8092C /* PodcastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F93642581477700B8092C /* PodcastCell.swift */; };
+		8D2F936A25815BC100B8092C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8D2F936925815BC100B8092C /* Kingfisher */; };
+		8D2F936D2581611500B8092C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F936C2581611500B8092C /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D2F93422581405000B8092C /* ItunesProgrammatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItunesProgrammatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2F93452581405000B8092C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D2F93472581405000B8092C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8D2F93492581405000B8092C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		8D2F934C2581405000B8092C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D2F934E2581405200B8092C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D2F93512581405200B8092C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D2F93532581405200B8092C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D2F935D258141E300B8092C /* PodcastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastModel.swift; sourceTree = "<group>"; };
+		8D2F93602581420E00B8092C /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		8D2F93642581477700B8092C /* PodcastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastCell.swift; sourceTree = "<group>"; };
+		8D2F936C2581611500B8092C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D2F933F2581405000B8092C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2F936A25815BC100B8092C /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D2F93392581405000B8092C = {
+			isa = PBXGroup;
+			children = (
+				8D2F93442581405000B8092C /* ItunesProgrammatic */,
+				8D2F93432581405000B8092C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D2F93432581405000B8092C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D2F93422581405000B8092C /* ItunesProgrammatic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D2F93442581405000B8092C /* ItunesProgrammatic */ = {
+			isa = PBXGroup;
+			children = (
+				8D2F93452581405000B8092C /* AppDelegate.swift */,
+				8D2F93472581405000B8092C /* SceneDelegate.swift */,
+				8D2F93492581405000B8092C /* SearchViewController.swift */,
+				8D2F934B2581405000B8092C /* Main.storyboard */,
+				8D2F934E2581405200B8092C /* Assets.xcassets */,
+				8D2F93502581405200B8092C /* LaunchScreen.storyboard */,
+				8D2F93532581405200B8092C /* Info.plist */,
+				8D2F935D258141E300B8092C /* PodcastModel.swift */,
+				8D2F93602581420E00B8092C /* APIClient.swift */,
+				8D2F93642581477700B8092C /* PodcastCell.swift */,
+				8D2F936C2581611500B8092C /* DetailViewController.swift */,
+			);
+			path = ItunesProgrammatic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D2F93412581405000B8092C /* ItunesProgrammatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D2F93562581405200B8092C /* Build configuration list for PBXNativeTarget "ItunesProgrammatic" */;
+			buildPhases = (
+				8D2F933E2581405000B8092C /* Sources */,
+				8D2F933F2581405000B8092C /* Frameworks */,
+				8D2F93402581405000B8092C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ItunesProgrammatic;
+			packageProductDependencies = (
+				8D2F936925815BC100B8092C /* Kingfisher */,
+			);
+			productName = ItunesProgrammatic;
+			productReference = 8D2F93422581405000B8092C /* ItunesProgrammatic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D2F933A2581405000B8092C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					8D2F93412581405000B8092C = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 8D2F933D2581405000B8092C /* Build configuration list for PBXProject "ItunesProgrammatic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D2F93392581405000B8092C;
+			packageReferences = (
+				8D2F936825815BC000B8092C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 8D2F93432581405000B8092C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D2F93412581405000B8092C /* ItunesProgrammatic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D2F93402581405000B8092C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2F93522581405200B8092C /* LaunchScreen.storyboard in Resources */,
+				8D2F934F2581405200B8092C /* Assets.xcassets in Resources */,
+				8D2F934D2581405000B8092C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D2F933E2581405000B8092C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2F935E258141E300B8092C /* PodcastModel.swift in Sources */,
+				8D2F934A2581405000B8092C /* SearchViewController.swift in Sources */,
+				8D2F93462581405000B8092C /* AppDelegate.swift in Sources */,
+				8D2F93612581420E00B8092C /* APIClient.swift in Sources */,
+				8D2F93652581477700B8092C /* PodcastCell.swift in Sources */,
+				8D2F93482581405000B8092C /* SceneDelegate.swift in Sources */,
+				8D2F936D2581611500B8092C /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D2F934B2581405000B8092C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D2F934C2581405000B8092C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D2F93502581405200B8092C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D2F93512581405200B8092C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D2F93542581405200B8092C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D2F93552581405200B8092C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D2F93572581405200B8092C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNV924Q9C2;
+				INFOPLIST_FILE = ItunesProgrammatic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lubakaper.ItunesProgrammatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D2F93582581405200B8092C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNV924Q9C2;
+				INFOPLIST_FILE = ItunesProgrammatic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lubakaper.ItunesProgrammatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D2F933D2581405000B8092C /* Build configuration list for PBXProject "ItunesProgrammatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D2F93542581405200B8092C /* Debug */,
+				8D2F93552581405200B8092C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D2F93562581405200B8092C /* Build configuration list for PBXNativeTarget "ItunesProgrammatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D2F93572581405200B8092C /* Debug */,
+				8D2F93582581405200B8092C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8D2F936825815BC000B8092C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.15.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8D2F936925815BC100B8092C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D2F936825815BC000B8092C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8D2F933A2581405000B8092C /* Project object */;
+}
